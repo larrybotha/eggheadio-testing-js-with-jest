@@ -1,16 +1,14 @@
 {
   "name": "eggheadio-testing-js-with-jest",
   "version": "1.0.0",
-  "description":
-    "Code and annotations for https://egghead.io/courses/react-testing-cookbook",
+  "description": "Code and annotations for https://egghead.io/courses/react-testing-cookbook",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url":
-      "git+https://github.com/larrybotha/eggheadio-testing-js-with-jest.git"
+    "url": "git+https://github.com/larrybotha/eggheadio-testing-js-with-jest.git"
   },
   "keywords": [],
   "author": "",
@@ -18,9 +16,12 @@
   "bugs": {
     "url": "https://github.com/larrybotha/eggheadio-testing-js-with-jest/issues"
   },
-  "homepage":
-    "https://github.com/larrybotha/eggheadio-testing-js-with-jest#readme",
+  "homepage": "https://github.com/larrybotha/eggheadio-testing-js-with-jest#readme",
   "devDependencies": {
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^22.4.1",
     "jest-cli": "^22.4.2"
   },
   "jest": {

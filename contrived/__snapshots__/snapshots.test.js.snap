@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`arrays 1`] = `
+Array [
+  "Vacuums have filters",
+  "I will not be filtered out",
+]
+`;
+
+exports[`jsx 1`] = `
+<div>
+  <h1>
+    Hello
+  </h1>
+   there 
+  <strong>
+    John!
+  </strong>
+</div>
+`;
+
+exports[`objects 1`] = `
+Object {
+  "age": 32,
+  "email": "123@example.com",
+  "foo": "bar",
+  "id": "3423490",
+  "name": "Joe",
+}
+`;

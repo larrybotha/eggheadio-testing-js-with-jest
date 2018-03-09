@@ -5,7 +5,8 @@
     "Code and annotations for https://egghead.io/courses/react-testing-cookbook",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "watch:test": "jest --watch"
   },
   "repository": {
     "type": "git",

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function makeSomeRequestAndGetSomeResponse() {
   return new Promise(resolve => {
@@ -8,8 +8,8 @@ function makeSomeRequestAndGetSomeResponse() {
       age: 32,
       foo: 'bar',
       email: '123@example.com',
-    })
-  })
+    });
+  });
 }
 
 function getFilteredStuff(filter) {
@@ -18,11 +18,15 @@ function getFilteredStuff(filter) {
     'Vacuums have filters',
     'I will not be filtered out',
     'but I will',
-  ].filter(i => i.includes(filter))
+  ].filter(i => i.includes(filter));
 }
 
 function MyComponent({name}) {
-  return <div><h1>Hello</h1> there <strong>{`${name}!`}</strong></div>
+  return (
+    <div>
+      <h1>Hello</h1> there <strong>{`${name}!`}</strong>
+    </div>
+  );
 }
 
-export {makeSomeRequestAndGetSomeResponse, getFilteredStuff, MyComponent}
+export {makeSomeRequestAndGetSomeResponse, getFilteredStuff, MyComponent};
